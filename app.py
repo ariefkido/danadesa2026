@@ -1,7 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
 import json
-import os
 
 # --- KONFIGURASI HALAMAN ---
 st.set_page_config(
@@ -11,22 +10,28 @@ st.set_page_config(
 )
 
 # --- 1. SETUP API KEY (OPSI B) ---
-# Mencari API Key di Streamlit Secrets (untuk Deploy) atau manual input (untuk lokal)
+# Mengambil dari Streamlit Secrets
 api_key = st.secrets.get("GEMINI_API_KEY")
 
 if not api_key:
+    # Fallback jika dijalankan lokal tanpa secrets
     with st.sidebar:
         st.title("🔑 Konfigurasi")
-        api_key = st.text_input("Masukkan Gemini API Key (Lokal):", type="password")
-        st.info("Jika sudah di-deploy, masukkan key ini di Dashboard Secrets Streamlit.")
+        api_key = st.text_input("Masukkan Gemini API Key:", type="password")
+        st.info("Dapatkan key di: aistudio.google.com")
 
 if not api_key:
-    st.warning("⚠️ API Key tidak ditemukan. Silakan konfigurasi di Secrets atau Sidebar.")
+    st.warning("⚠️ API Key tidak ditemukan. Harap masukkan API Key untuk memulai.")
     st.stop()
 
 # Konfigurasi AI Gemini
-genai.configure(api_key=api_key)
-model = genai.GenerativeModel('gemini-1.5-flash')
+try:
+    genai.configure(api_key=api_key)
+    # Gunakan nama model yang lengkap: 'models/gemini-1.5-flash'
+    model = genai.GenerativeModel(model_name='gemini-1.5-flash')
+except Exception as e:
+    st.error(f"Gagal konfigurasi Gemini: {e}")
+    st.stop()
 
 # --- 2. LOAD DATA PERATURAN ---
 @st.cache_data
@@ -36,7 +41,6 @@ def load_context():
         with open(file_name, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
-        # Menggabungkan data menjadi satu konteks teks
         context_parts = []
         for item in data:
             ctx = f"[{item['full_context']}] {item['text']}"
@@ -44,19 +48,18 @@ def load_context():
         
         return "\n".join(context_parts)
     except FileNotFoundError:
-        st.error(f"File {file_name} tidak ditemukan!")
+        st.error(f"File {file_name} tidak ditemukan di repositori!")
+        return None
+    except Exception as e:
+        st.error(f"Error memuat JSON: {e}")
         return None
 
 peraturan_text = load_context()
 
-if not peraturan_text:
-    st.stop()
-
 # --- 3. ANTARMUKA CHAT ---
 st.title("🤖 Asisten Dana Desa 2026")
-st.markdown("Tanyakan aturan terkait **PMK No. 7 Tahun 2026**. Data diambil langsung dari dokumen resmi.")
+st.caption("Menjawab berdasarkan PMK No. 7 Tahun 2026")
 
-# Inisialisasi riwayat pesan
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
@@ -66,35 +69,38 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Input user
-if prompt := st.chat_input("Contoh: Apa syarat penyaluran tahap I?"):
-    # Simpan & Tampilkan pesan user
+if prompt := st.chat_input("Tanyakan sesuatu..."):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
 
-    # Respon AI
     with st.chat_message("assistant"):
-        with st.spinner("Membaca peraturan..."):
-            # Instruksi agar AI hanya menjawab berdasarkan data JSON
+        with st.spinner("Mencari jawaban..."):
             system_instruction = f"""
-            Anda adalah pakar hukum dari Kementerian Keuangan.
-            Gunakan teks peraturan berikut untuk menjawab pertanyaan:
+            Anda adalah pakar hukum keuangan negara. Jawablah hanya berdasarkan data PMK 7/2026 berikut:
             
-            {peraturan_text}
+            {peraturan_text if peraturan_text else "Data tidak tersedia."}
             
-            Aturan jawaban:
-            1. Jawablah hanya berdasarkan data di atas.
-            2. Sebutkan nomor Pasal/Ayat dengan jelas (misal: Sesuai Pasal 5 Ayat 2...).
-            3. Jika tidak ada di data, katakan informasi tersebut tidak diatur di PMK 7/2026.
-            4. Gunakan bahasa Indonesia yang sopan dan profesional.
+            Instruksi:
+            - Jika jawaban ada, sebutkan Pasal/Ayat.
+            - Jika tidak ada, katakan tidak diatur dalam PMK ini.
+            - Gunakan Bahasa Indonesia formal.
             """
             
             try:
-                # Mengirim konteks + pertanyaan ke Gemini
-                response = model.generate_content([system_instruction, prompt])
-                answer = response.text
+                # Menggunakan generate_content dengan struktur yang lebih aman
+                response = model.generate_content(
+                    f"{system_instruction}\n\nPertanyaan User: {prompt}"
+                )
                 
-                st.markdown(answer)
-                st.session_state.messages.append({"role": "assistant", "content": answer})
+                if response.text:
+                    st.markdown(response.text)
+                    st.session_state.messages.append({"role": "assistant", "content": response.text})
+                else:
+                    st.error("AI tidak memberikan respon. Coba ulangi pertanyaan.")
+                    
             except Exception as e:
-                st.error(f"Kesalahan: {str(e)}")
+                # Menampilkan error yang lebih jelas jika model tidak ditemukan
+                st.error(f"Terjadi kesalahan saat memanggil AI: {str(e)}")
+                if "404" in str(e):
+                    st.info("Tips: Pastikan API Key Anda aktif dan coba ganti model ke 'gemini-pro' jika 'gemini-1.5-flash' bermasalah di region Anda.")
