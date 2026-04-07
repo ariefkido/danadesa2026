@@ -79,7 +79,7 @@ Instruksi:
 
             try:
                 response = client.models.generate_content(
-                    model="gemini-2.0-flash",
+                    model="gemini-1.5-flash",
                     contents=f"{system_instruction}\n\nPertanyaan User: {prompt}"
                 )
                 answer = response.text
