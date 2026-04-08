@@ -58,8 +58,8 @@ def search(query, vectorizer, vectors, df, top_k=3):
 # =========================
 st.set_page_config(page_title="Chatbot PMK 7", layout="centered")
 
-st.title("🤖 Chatbot PMK 7 Tahun 2026")
-st.write("Tanyakan apa saja terkait Dana Desa")
+st.title("🤖 FAQ PMK 7 Tahun 2026 tentang Dana Desa")
+st.write("Silahkan masukkan pertanyaan, nanti saya akan tampilkan informasi paling sesuai dari dataset.")
 
 df = load_data("faq_pmk7dd_fix.csv")
 vectorizer, vectors = build_model(df["question"])
