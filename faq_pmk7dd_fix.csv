@@ -525,3 +525,64 @@ pertanyaan||variasi1||variasi2,jawaban,pasal_referensi
 "Jika desa ingin memastikan transparansi Dana Desa, apa yang harus dilakukan?||Transparansi||Bagaimana memastikan","Melakukan pelaporan yang benar dan akurat.","Pasal 3 ayat (1)"
 
 "Jika desa ingin memastikan akuntabilitas, apa indikator utamanya?||Akuntabilitas||Apa indikator","Pelaporan dan kepatuhan terhadap ketentuan.","Pasal 3 ayat (1)"
+
+pertanyaan||variasi1||variasi2,jawaban,pasal_referensi
+"Kapan Dana Desa tahap pertama disalurkan?||Tahap 1 cair kapan?||Dana Desa awal tahun kapan cair","Penyaluran tahap pertama dilakukan setelah persyaratan terpenuhi sesuai ketentuan.","Pasal 3 ayat (2)"
+
+"Kapan Dana Desa tahap berikutnya bisa dicairkan?||Tahap 2 kapan cair?||Tahap selanjutnya kapan dibayar","Dilakukan setelah desa memenuhi persyaratan penyaluran tahap sebelumnya.","Pasal 3 ayat (2)"
+
+"Apakah Dana Desa dicairkan sekaligus?||Apakah langsung penuh cair?||Apakah bertahap","Tidak, penyaluran dilakukan secara bertahap.","Pasal 3"
+
+"Apa syarat agar tahap pertama Dana Desa cair?||Tahap 1 butuh apa saja?||Syarat awal pencairan apa","Harus memenuhi dokumen dan persyaratan penyaluran yang diverifikasi.","Pasal 3 ayat (2)"
+
+"Apa syarat agar tahap kedua bisa dicairkan?||Tahap berikutnya syaratnya apa?||Apa yang harus dipenuhi","Harus memenuhi syarat termasuk pelaporan tahap sebelumnya.","Pasal 3 ayat (1)-(2)"
+
+"Apakah tahap kedua bisa cair jika tahap pertama belum dilaporkan?||Belum lapor tahap 1 bisa lanjut?||Apakah tetap cair","Tidak, penyaluran berikutnya dapat ditunda.","Pasal 3 ayat (1)"
+
+"Jika laporan tahap pertama terlambat, kapan tahap kedua cair?||Telat laporan tahap 1 gimana tahap 2?||Apakah ikut telat","Penyaluran tahap berikutnya akan tertunda sampai syarat dipenuhi.","Pasal 3 ayat (1)"
+
+"Apakah ada jadwal pasti tanggal pencairan Dana Desa?||Apakah ada tanggal tetap?||Apakah selalu sama setiap tahun","Tidak selalu, tergantung pemenuhan syarat dan proses verifikasi.","Pasal 3 ayat (2)"
+
+"Jika semua syarat sudah lengkap, apakah dana langsung cair hari itu juga?||Langsung cair setelah lengkap?||Apakah instan","Tidak selalu, tetap mengikuti proses penyaluran dan sistem.","Pasal 3 ayat (2)"
+
+"Jika desa terlambat mengajukan dokumen tahap pertama, apakah tahap kedua ikut mundur?||Telat awal berdampak ke tahap berikutnya?||Apakah berantai","Ya, karena penyaluran bersifat berurutan.","Pasal 3 ayat (2)"
+
+"Apakah tahap pencairan Dana Desa harus berurutan?||Bisa loncat tahap?||Apakah wajib urut","Ya, harus berurutan sesuai tahapan.","Pasal 3"
+
+"Jika tahap pertama gagal cair karena kesalahan dokumen, apakah tahap kedua tetap bisa diproses?||Tahap 1 gagal bisa lanjut tahap 2?||Apakah bisa skip","Tidak, harus menyelesaikan tahap sebelumnya.","Pasal 3 ayat (2)"
+
+"Jika terjadi retur pada tahap pertama, apakah tahap kedua tetap bisa dilakukan?||Retur tahap 1 bisa lanjut?||Apakah menghambat","Tidak, harus diselesaikan terlebih dahulu.","Pasal 3 ayat (2)"
+
+"Jika desa ingin mempercepat pencairan tahap pertama, apa yang harus dilakukan?||Biar tahap 1 cepat cair||Apa tipsnya","Melengkapi dan memvalidasi dokumen sejak awal.","Pasal 3 ayat (2)"
+
+"Jika desa ingin tahap kedua cepat cair, faktor apa yang paling penting?||Biar tahap 2 cepat||Apa kunci","Pelaporan tahap sebelumnya yang tepat dan valid.","Pasal 3 ayat (1)"
+
+"Apakah keterlambatan tahap pertama selalu mempengaruhi seluruh tahapan?||Telat awal berdampak semua?||Apakah domino effect","Ya, dapat menghambat seluruh tahapan.","Pasal 3 ayat (2)"
+
+"Jika desa mengalami penundaan pada satu tahap, apakah jadwal tahapan berikutnya ikut berubah?||Ditunda satu tahap dampaknya apa?||Apakah mundur semua","Ya, seluruh jadwal dapat bergeser.","Pasal 3 ayat (1)"
+
+"Jika desa sudah siap tahap kedua tetapi tahap pertama belum selesai diverifikasi, apakah bisa lanjut?||Belum diverifikasi tahap 1 bisa lanjut?||Apakah boleh","Tidak, harus menunggu verifikasi tahap sebelumnya.","Pasal 3 ayat (2)"
+
+"Jika desa terlambat memperbaiki kesalahan tahap pertama, kapan tahap kedua cair?||Perbaikan lama tahap 1||Kapan tahap 2","Setelah seluruh syarat tahap sebelumnya terpenuhi.","Pasal 3 ayat (2)"
+
+"Apakah setiap tahap membutuhkan dokumen baru?||Apakah tiap tahap ada syarat baru?||Apakah sama terus","Ya, setiap tahap memiliki persyaratan yang harus dipenuhi.","Pasal 3 ayat (2)"
+
+"Apakah laporan penggunaan dana menjadi syarat tahapan berikutnya?||Laporan jadi syarat cair berikutnya?||Apakah wajib","Ya, menjadi syarat utama.","Pasal 3 ayat (1)"
+
+"Jika laporan tidak valid, apakah tahap berikutnya bisa cair?||Laporan salah bisa lanjut?||Apakah tetap diproses","Tidak, dapat ditunda.","Pasal 3 ayat (1)"
+
+"Jika desa tidak menyelesaikan laporan hingga akhir tahun, apa yang terjadi dengan tahapan berikutnya?||Tidak lapor sampai akhir tahun||Apakah hangus","Penyaluran dapat dihentikan.","Pasal 3 ayat (1)"
+
+"Apakah semua desa menerima dana pada waktu yang sama?||Apakah cair serentak?||Apakah bersamaan","Tidak, tergantung pemenuhan syarat masing-masing desa.","Pasal 3 ayat (2)"
+
+"Jika desa lebih cepat memenuhi syarat, apakah bisa cair lebih dulu?||Lebih siap cair duluan?||Apakah bisa beda waktu","Ya, penyaluran tergantung kesiapan desa.","Pasal 3 ayat (2)"
+
+"Apakah desa bisa menunda pencairan sendiri?||Bisa tidak ambil dana dulu?||Apakah fleksibel","Penyaluran mengikuti proses dan persyaratan, bukan pilihan bebas desa.","Pasal 3"
+
+"Jika desa tidak siap menerima dana pada tahap tertentu, apa yang terjadi?||Belum siap bagaimana||Apakah tetap cair","Penyaluran dapat tertunda.","Pasal 3 ayat (2)"
+
+"Apakah pencairan Dana Desa harus selesai dalam satu tahun anggaran?||Apakah ada batas waktu tahunan?||Apakah harus selesai","Ya, mengikuti tahun anggaran.","Pasal 7"
+
+"Jika tahapan terakhir belum cair hingga akhir tahun, apa dampaknya?||Tahap akhir tidak cair||Apakah hangus","Penyaluran tidak dilakukan jika syarat tidak terpenuhi.","Pasal 3 ayat (1)"
+
+"Jika desa ingin memastikan semua tahap cair tepat waktu, apa strategi utama?||Agar semua tahap lancar||Apa yang harus dijaga","Kelengkapan dokumen, validitas data, dan pelaporan tepat waktu.","Pasal 3 ayat (1)-(2)"
