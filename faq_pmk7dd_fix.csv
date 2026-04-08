@@ -1,0 +1,527 @@
+pertanyaan||variasi1||variasi2,jawaban,pasal_referensi
+"Apa yang dimaksud dengan Dana Desa?||Definisi Dana Desa apa?||Dana Desa itu apa sih?","Dana Desa adalah bagian dari TKD untuk mendukung pemerintahan, pembangunan, pemberdayaan, dan kemasyarakatan desa.","Pasal 1 ayat (8)"
+"Apa itu Transfer ke Daerah (TKD)?||TKD itu apa?||Apa pengertian TKD?","TKD adalah dana dari APBN yang disalurkan ke daerah untuk mendanai urusan pemerintahan daerah.","Pasal 1 ayat (1)"
+"Siapa yang dimaksud Pemerintah dalam aturan ini?||Pemerintah itu siapa?||Yang dimaksud Pemerintah Pusat siapa?","Presiden Republik Indonesia yang dibantu Wakil Presiden dan menteri.","Pasal 1 ayat (2)"
+"Apa yang dimaksud Pemerintah Desa?||Pemerintah desa terdiri dari siapa?||Siapa yang mengelola desa?","Kepala desa dibantu perangkat desa.","Pasal 1 ayat (6)"
+"Apa itu APB Desa?||APB Desa artinya apa?||Anggaran desa disebut apa?","Rencana keuangan tahunan pemerintahan desa.","Pasal 1 ayat (25)"
+"Apa itu RKD?||Rekening desa apa namanya?||Dana desa masuk ke mana?","Rekening kas desa untuk menampung penerimaan dan pengeluaran desa.","Pasal 1 ayat (28)"
+"Apa itu RKUN?||Rekening negara apa?||Dana negara disimpan di mana?","Rekening kas negara untuk menampung penerimaan dan pengeluaran negara.","Pasal 1 ayat (26)"
+"Apa itu RKUD?||Rekening kas daerah itu apa?||Dana daerah disimpan di mana?","Rekening kas daerah untuk menampung penerimaan dan pengeluaran daerah.","Pasal 1 ayat (27)"
+"Apa itu Alokasi Dasar?||Alokasi dasar itu apa?||Apa maksud alokasi dasar?","Alokasi yang dibagi proporsional ke setiap desa.","Pasal 1 ayat (9)"
+"Apa itu Alokasi Afirmasi?||Alokasi afirmasi untuk siapa?||Apa maksud afirmasi?","Alokasi untuk desa tertinggal atau berisiko tinggi.","Pasal 1 ayat (10)"
+"Apa itu Alokasi Kinerja?||Alokasi berbasis kinerja apa?||Kinerja desa dihitung bagaimana?","Alokasi untuk desa dengan kinerja terbaik.","Pasal 1 ayat (11)"
+"Apa itu Alokasi Formula?||Bagaimana formula dihitung?||Apa saja faktor formula?","Berdasarkan penduduk, kemiskinan, luas wilayah, dan kesulitan geografis.","Pasal 1 ayat (12)"
+"Apa itu IKG Desa?||Indeks kesulitan geografis apa?||IKG itu apa?","Indikator tingkat kesulitan geografis desa.","Pasal 1 ayat (13)"
+
+"Jika sebuah desa memiliki jumlah penduduk tinggi dan tingkat kemiskinan tinggi, bagaimana dampaknya pada alokasi?||Penduduk dan kemiskinan tinggi pengaruhnya apa?||Apakah dua faktor meningkatkan dana?","Keduanya meningkatkan alokasi melalui formula.","Pasal 1 ayat (12)"
+
+"Jika desa kecil tetapi sangat miskin, apakah tetap mendapat tambahan?||Desa kecil tapi miskin bagaimana?||Apakah luas kecil mengurangi?","Tetap mendapat tambahan dari faktor kemiskinan.","Pasal 1 ayat (12)"
+
+"Jika desa luas tetapi jumlah penduduk sedikit, bagaimana dampaknya?||Wilayah besar tapi sedikit warga bagaimana?||Apakah luas tetap dihitung?","Luas wilayah tetap meningkatkan alokasi meskipun penduduk sedikit.","Pasal 1 ayat (12)"
+
+"Jika desa tidak miskin tetapi terpencil, apakah tetap dapat tambahan?||Desa tidak miskin tapi sulit akses bagaimana?||Geografis saja cukup?","Ya, faktor geografis tetap meningkatkan alokasi.","Pasal 1 ayat (12)"
+
+"Jika desa memiliki kinerja terbaik tetapi bukan desa tertinggal, apakah tetap mendapat tambahan?||Kinerja bagus tapi tidak miskin bagaimana?||Apakah tetap dapat bonus?","Ya, melalui alokasi kinerja.","Pasal 1 ayat (11)"
+
+"Jika desa tertinggal tetapi kinerja buruk, apakah tetap mendapat tambahan?||Desa miskin tapi tidak bagus kinerjanya bagaimana?||Apakah tetap dapat afirmasi?","Ya, afirmasi berdasarkan kondisi desa.","Pasal 1 ayat (10)"
+
+"Jika desa memenuhi semua indikator tinggi (penduduk, miskin, luas, geografis), apa dampaknya?||Jika semua faktor tinggi bagaimana?||Apakah dana maksimal?","Akan memperoleh alokasi formula yang lebih besar.","Pasal 1 ayat (12)"
+
+"Apakah semua desa mendapatkan Dana Desa?||Apakah ada desa yang tidak dapat?||Semua desa dapat?","Ya, semua desa menerima Dana Desa.","Pasal 7"
+
+"Apakah Dana Desa selalu sama setiap tahun?||Apakah jumlah tetap?||Apakah berubah?","Tidak, dapat berubah sesuai kebijakan dan perhitungan.","Pasal 7"
+
+"Berapa total Dana Desa tahun 2026?||Total pagu berapa?||Dana Desa 2026 jumlahnya?","Rp60.570.000.000.000.","Pasal 7 ayat (1)"
+
+"Jika pemerintah meningkatkan prioritas nasional desa, apakah Dana Desa bisa berubah?||Apakah kebijakan pusat mempengaruhi dana?||Apakah fleksibel?","Ya, dapat disesuaikan dengan kebijakan pemerintah.","Pasal 5 ayat (3)"
+
+"Jika desa tidak mengikuti prioritas nasional, apakah berdampak?||Apakah harus ikut prioritas nasional?||Apa dampaknya jika tidak?","Dapat mempengaruhi evaluasi dan penganggaran.","Pasal 5 ayat (3)"
+
+"Siapa yang mengusulkan kebutuhan Dana Desa?||Siapa yang menentukan kebutuhan awal?||Siapa yang mulai proses?","KPA BUN Pengelola Dana Desa.","Pasal 5 ayat (1)"
+
+"Siapa yang menyusun indikasi kebutuhan Dana Desa?||Siapa yang finalisasi kebutuhan?||Siapa yang menentukan?","Pemimpin PPA BUN.","Pasal 5 ayat (2)"
+
+"Jika kebutuhan desa meningkat tetapi kemampuan keuangan negara terbatas, apa yang terjadi?||Jika negara tidak mampu bagaimana?||Apakah tetap naik?","Disesuaikan dengan kemampuan keuangan negara.","Pasal 5 ayat (3)"
+
+"Jika terjadi konflik antara kebutuhan desa dan prioritas nasional, mana yang diprioritaskan?||Mana yang lebih penting?||Bagaimana penentuannya?","Keduanya dipertimbangkan bersama dalam penyusunan.","Pasal 5 ayat (3)"
+
+"Jika indikasi kebutuhan terlambat disampaikan, apa dampaknya?||Jika lewat Februari bagaimana?||Apakah bermasalah?","Tidak sesuai ketentuan penganggaran.","Pasal 5 ayat (4)"
+
+"Apakah Dana Desa bagian dari kebijakan fiskal?||Apakah termasuk APBN?||Apakah bagian anggaran negara?","Ya, bagian dari APBN melalui TKD.","Pasal 1 ayat (1)"
+
+"Jika desa ingin meningkatkan Dana Desa, faktor apa yang harus diperbaiki?||Bagaimana menaikkan dana?||Apa strategi?","Meningkatkan kinerja dan indikator formula.","Pasal 1 ayat (11)-(12)"
+
+"Jika desa tidak memahami indikator formula, apa risikonya?||Jika tidak paham perhitungan bagaimana?||Apakah berdampak?","Tidak optimal dalam meningkatkan alokasi.","Pasal 1 ayat (12)"
+
+"Jika desa memiliki data kemiskinan yang tidak akurat, apa dampaknya?||Data salah pengaruhnya apa?||Apakah mempengaruhi dana?","Dapat mempengaruhi hasil alokasi.","Pasal 1 ayat (12)"
+
+"Jika desa ingin fokus meningkatkan dana melalui satu faktor saja, apakah cukup?||Fokus satu indikator cukup?||Apakah harus semua?","Semua faktor tetap diperhitungkan.","Pasal 1 ayat (12)"
+
+pertanyaan||variasi1||variasi2,jawaban,pasal_referensi
+"Bagaimana struktur alokasi Dana Desa secara umum?||Dana Desa dibagi jadi apa saja?||Komponen Dana Desa apa saja?","Alokasi dasar, afirmasi, kinerja, dan formula.","Pasal 1 ayat (9)-(12)"
+
+"Berapa persentase alokasi dasar dalam Dana Desa?||Alokasi dasar berapa persen?||Porsi utama Dana Desa berapa?","65% dari pagu Dana Desa yang dihitung sebelum tahun berjalan.","Pasal 7"
+
+"Jika alokasi dasar 65%, apa implikasinya terhadap pemerataan dana?||Apakah alokasi dasar menjamin pemerataan?||Kenapa alokasi dasar besar?","Memberikan distribusi merata ke seluruh desa.","Pasal 1 ayat (9)"
+
+"Jika desa memiliki kinerja buruk tetapi tetap menerima alokasi dasar, apakah hal itu wajar?||Desa buruk tetap dapat dana?||Apakah alokasi dasar tanpa syarat?","Ya, alokasi dasar diberikan ke semua desa.","Pasal 1 ayat (9)"
+
+"Jika desa tidak memenuhi kriteria afirmasi dan kinerja, apakah tetap menerima Dana Desa?||Jika tidak memenuhi apa pun apakah tetap dapat dana?||Apakah minimal tetap ada?","Ya, tetap menerima melalui alokasi dasar dan formula.","Pasal 1 ayat (9) dan (12)"
+
+"Bagaimana hubungan antara alokasi afirmasi dan tingkat kemiskinan?||Apakah kemiskinan mempengaruhi afirmasi?||Desa miskin dapat apa?","Desa dengan penduduk miskin tinggi mendapat alokasi afirmasi.","Pasal 1 ayat (10)"
+
+"Jika desa sangat miskin tetapi tidak termasuk kategori tertinggal secara administratif, apakah tetap dapat afirmasi?||Jika miskin tapi bukan tertinggal bagaimana?||Apakah tetap dihitung?","Harus memenuhi kriteria afirmasi sesuai ketentuan.","Pasal 1 ayat (10)"
+
+"Jika desa memenuhi dua kriteria afirmasi (miskin dan rawan bencana), apakah mendapatkan dua kali alokasi?||Apakah afirmasi bisa dobel?||Jika dua faktor terpenuhi bagaimana?","Tidak dobel, tetapi memperkuat peluang mendapatkan afirmasi.","Pasal 1 ayat (10)"
+
+"Bagaimana alokasi kinerja diberikan?||Kinerja desa dinilai bagaimana?||Apa syarat dapat alokasi kinerja?","Diberikan kepada desa dengan kinerja terbaik.","Pasal 1 ayat (11)"
+
+"Jika desa memiliki kinerja tinggi tetapi tingkat kemiskinan rendah, apakah tetap mendapat tambahan dana?||Kinerja bagus tapi tidak miskin bagaimana?||Apakah tetap dapat lebih?","Ya, melalui alokasi kinerja.","Pasal 1 ayat (11)"
+
+"Jika desa miskin dan berkinerja tinggi, apakah mendapatkan dua keuntungan?||Apakah bisa dapat afirmasi dan kinerja?||Apakah dua faktor bisa digabung?","Ya, dapat memperoleh dari afirmasi dan kinerja.","Pasal 1 ayat (10)-(11)"
+
+"Bagaimana interaksi antara alokasi formula dan alokasi lainnya?||Apakah formula berdiri sendiri?||Apakah formula tambahan?","Formula melengkapi alokasi dasar, afirmasi, dan kinerja.","Pasal 1 ayat (12)"
+
+"Jika desa memiliki nilai tinggi di semua indikator formula, apa dampaknya?||Jika semua faktor tinggi bagaimana?||Apakah dapat dana besar?","Mendapat alokasi formula lebih besar.","Pasal 1 ayat (12)"
+
+"Jika desa memiliki jumlah penduduk tinggi tetapi tingkat kemiskinan rendah, bagaimana hasilnya?||Penduduk tinggi tapi tidak miskin bagaimana?||Apakah tetap dapat lebih?","Tetap mendapat tambahan dari faktor jumlah penduduk.","Pasal 1 ayat (12)"
+
+"Jika desa memiliki kemiskinan tinggi tetapi jumlah penduduk kecil, bagaimana hasilnya?||Miskin tapi sedikit penduduk bagaimana?||Apakah tetap besar?","Tetap mendapat tambahan dari faktor kemiskinan.","Pasal 1 ayat (12)"
+
+"Jika desa luas wilayah besar tetapi akses mudah, bagaimana pengaruhnya?||Wilayah besar tapi tidak sulit bagaimana?||Apakah tetap tinggi?","Luas wilayah tetap meningkatkan alokasi.","Pasal 1 ayat (12)"
+
+"Jika desa kecil tetapi sangat terpencil, apakah mendapat tambahan besar?||Kecil tapi sulit akses bagaimana?||Apakah geografis dominan?","Ya, faktor geografis meningkatkan alokasi.","Pasal 1 ayat (12)"
+
+"Jika dua desa memiliki jumlah penduduk sama tetapi kondisi geografis berbeda, mana yang mendapat lebih?||Desa sulit vs mudah bagaimana?||Mana lebih besar?","Desa dengan kesulitan geografis lebih tinggi mendapat lebih.","Pasal 1 ayat (12)"
+
+"Jika dua desa memiliki tingkat kemiskinan sama tetapi luas wilayah berbeda, mana yang lebih besar alokasinya?||Luas besar vs kecil bagaimana?||Mana lebih tinggi?","Desa dengan wilayah lebih luas mendapat tambahan.","Pasal 1 ayat (12)"
+
+"Jika desa memiliki semua indikator rendah, apa dampaknya?||Jika semua faktor kecil bagaimana?||Apakah dana kecil?","Alokasi formula relatif lebih kecil.","Pasal 1 ayat (12)"
+
+"Bagaimana pengaruh Indeks Kesulitan Geografis (IKG) terhadap alokasi?||Apakah IKG penting?||IKG mempengaruhi apa?","IKG mempengaruhi alokasi melalui faktor geografis.","Pasal 1 ayat (13)"
+
+"Jika IKG tinggi, apakah dana otomatis lebih besar?||IKG tinggi berarti apa?||Apakah pasti naik?","Ya, meningkatkan alokasi formula.","Pasal 1 ayat (13)"
+
+"Jika IKG rendah, apakah desa dirugikan?||Apakah desa mudah dapat lebih sedikit?||Apakah IKG rendah berdampak?","Tidak dirugikan, tetapi alokasi geografis lebih kecil.","Pasal 1 ayat (13)"
+
+"Bagaimana peran kebijakan pemerintah dalam alokasi Dana Desa?||Apakah pusat bisa intervensi?||Apakah fleksibel?","Sebagian Dana Desa dialokasikan untuk kebijakan pemerintah.","Pasal 7 ayat (1)"
+
+"Jika pemerintah menetapkan kebijakan baru di tengah tahun, apakah alokasi bisa berubah?||Apakah bisa disesuaikan?||Apakah fleksibel?","Ya, sesuai kebijakan pemerintah.","Pasal 7 ayat (1)"
+
+"Jika terjadi perubahan data desa setelah perhitungan awal, apakah alokasi berubah?||Data berubah bagaimana?||Apakah update mempengaruhi?","Dapat mempengaruhi perhitungan selanjutnya.","Pasal 7"
+
+"Jika desa ingin memaksimalkan Dana Desa, faktor mana paling strategis?||Apa faktor utama?||Apa yang harus difokuskan?","Meningkatkan kinerja dan indikator formula.","Pasal 1 ayat (11)-(12)"
+
+"Jika desa hanya fokus pada pembangunan fisik tanpa meningkatkan kinerja administratif, apakah optimal?||Fokus fisik saja cukup?||Apakah kinerja penting?","Tidak optimal karena kinerja mempengaruhi alokasi.","Pasal 1 ayat (11)"
+
+"Jika desa memiliki data tidak valid pada indikator kemiskinan, apa dampaknya?||Data salah pengaruhnya apa?||Apakah bisa rugi?","Dapat mempengaruhi hasil alokasi.","Pasal 1 ayat (12)"
+
+"Jika desa ingin meningkatkan alokasi afirmasi, apa yang harus dipenuhi?||Bagaimana dapat afirmasi?||Apa syarat afirmasi?","Memenuhi kriteria desa tertinggal atau berisiko tinggi.","Pasal 1 ayat (10)"
+
+"Jika desa berkembang menjadi desa maju, apakah afirmasi hilang?||Jika status naik bagaimana?||Apakah tetap dapat?","Dapat kehilangan alokasi afirmasi.","Pasal 1 ayat (10)"
+
+"Jika desa memiliki kinerja buruk selama beberapa tahun, apa dampaknya?||Kinerja rendah terus bagaimana?||Apakah berpengaruh jangka panjang?","Tidak mendapatkan alokasi kinerja.","Pasal 1 ayat (11)"
+
+"Jika desa ingin mengejar alokasi kinerja, apa yang harus diperbaiki?||Bagaimana meningkatkan kinerja?||Apa indikatornya?","Meningkatkan kinerja pengelolaan dan pelaporan.","Pasal 1 ayat (11)"
+
+"Jika dua desa memiliki kondisi identik, apakah alokasi sama?||Apakah bisa sama persis?||Apakah pasti sama?","Ya, jika semua indikator sama.","Pasal 1 ayat (12)"
+
+"Jika ada perbedaan kecil dalam satu indikator, apakah berdampak signifikan?||Perbedaan kecil berpengaruh?||Apakah sensitif?","Dapat mempengaruhi hasil perhitungan.","Pasal 1 ayat (12)"
+
+pertanyaan||variasi1||variasi2,jawaban,pasal_referensi
+"Bagaimana mekanisme penyaluran Dana Desa secara umum?||Alur penyaluran Dana Desa bagaimana?||Dana Desa disalurkan lewat apa?","Penyaluran dilakukan melalui KPPN menggunakan OM-SPAN TKD ke rekening desa.","Pasal 3 ayat (2)-(3)"
+
+"Siapa yang bertanggung jawab melakukan penyaluran Dana Desa?||Siapa yang mencairkan Dana Desa?||Siapa pelaksana penyaluran?","KPA BUN Penyaluran Dana Desa yaitu Kepala KPPN.","Pasal 2 ayat (1)"
+
+"Melalui sistem apa penyaluran Dana Desa dilakukan?||Aplikasi apa untuk penyaluran?||Penyaluran pakai apa?","Menggunakan Aplikasi OM-SPAN TKD.","Pasal 3 ayat (3)"
+
+"Jika dokumen penyaluran tidak lengkap, apa yang terjadi?||Jika syarat belum lengkap bagaimana?||Apakah tetap cair?","Penyaluran tidak dilakukan sampai dokumen lengkap.","Pasal 3 ayat (2)"
+
+"Jika dokumen lengkap tetapi tidak sesuai format, apa dampaknya?||Format salah bagaimana?||Apakah tetap diproses?","Dapat ditolak dalam proses verifikasi.","Pasal 3 ayat (2)"
+
+"Jika terjadi kesalahan data rekening desa, apa yang terjadi?||Rekening salah bagaimana?||Apakah dana tetap masuk?","Terjadi retur penyaluran.","Pasal 3 ayat (2)"
+
+"Jika terjadi retur, apa langkah selanjutnya?||Dana gagal salur bagaimana?||Apa yang harus dilakukan setelah retur?","Retur diselesaikan dan dilakukan penyaluran kembali.","Pasal 3 ayat (2)"
+
+"Siapa yang menyelesaikan retur penyaluran?||Siapa menangani dana gagal?||Retur diurus siapa?","KPA BUN Penyaluran Dana Desa.","Pasal 3 ayat (2)"
+
+"Jika dana sudah dikirim tetapi tidak masuk ke RKD, apa kemungkinan penyebabnya?||Status cair tapi belum masuk kenapa?||Kenapa dana tidak diterima?","Kemungkinan terjadi retur akibat kesalahan data.","Pasal 3 ayat (2)"
+
+"Jika desa terlambat memperbaiki kesalahan rekening, apa dampaknya?||Perbaikan lambat bagaimana?||Apakah dana tetap tertahan?","Penyaluran tertunda sampai diperbaiki.","Pasal 3 ayat (2)"
+
+"Jika dokumen benar tetapi data di sistem berbeda, apa yang terjadi?||Data mismatch bagaimana?||Perbedaan data berdampak apa?","Dapat menghambat proses verifikasi dan penyaluran.","Pasal 3 ayat (2)"
+
+"Jika desa sudah memenuhi syarat tetapi belum diverifikasi, apakah dana bisa cair?||Belum diverifikasi bisa cair?||Verifikasi wajib?","Tidak, harus melalui verifikasi terlebih dahulu.","Pasal 3 ayat (2)"
+
+"Jika verifikasi sudah selesai tetapi dana belum cair, apa penyebabnya?||Sudah lolos tapi belum cair kenapa?||Kenapa delay?","Karena proses penyaluran mengikuti jadwal dan sistem.","Pasal 3 ayat (2)"
+
+"Jika terjadi gangguan sistem OM-SPAN, apakah penyaluran berhenti?||Sistem error bagaimana?||Apakah tetap jalan?","Penyaluran tergantung sistem namun tetap dikelola oleh pihak terkait.","Pasal 3 ayat (3)"
+
+"Jika desa tidak mengirim dokumen sama sekali, apa yang terjadi?||Tidak kirim syarat bagaimana?||Apakah dana tetap cair?","Penyaluran tidak dilakukan.","Pasal 3 ayat (2)"
+
+"Jika desa mengirim dokumen sebagian, apa dampaknya?||Dokumen sebagian bagaimana?||Apakah tetap diproses?","Tidak diproses sampai lengkap.","Pasal 3 ayat (2)"
+
+"Jika desa mengirim dokumen terlambat, apa dampaknya?||Telat kirim bagaimana?||Apakah tetap cair?","Penyaluran dapat tertunda.","Pasal 3 ayat (2)"
+
+"Jika desa sudah menerima dana tetapi terjadi kesalahan administrasi, apakah berpengaruh ke tahap berikutnya?||Kesalahan setelah cair bagaimana?||Apakah berdampak ke pencairan berikutnya?","Ya, dapat mempengaruhi penyaluran berikutnya.","Pasal 3 ayat (1)"
+
+"Jika desa tidak melaporkan penggunaan dana sebelumnya, apa dampaknya pada penyaluran berikutnya?||Tidak lapor bagaimana?||Apakah dana berikutnya tertahan?","Penyaluran dapat ditunda atau dihentikan.","Pasal 3 ayat (1)"
+
+"Jika desa melakukan kesalahan berulang dalam penyaluran, apa konsekuensinya?||Error terus menerus bagaimana?||Apakah ada sanksi lebih berat?","Dapat dikenakan penundaan, pemotongan, atau penghentian.","Pasal 3 ayat (1)"
+
+"Jika desa sudah diperbaiki setelah penundaan, apakah dana langsung cair?||Setelah perbaikan apakah langsung?||Apakah perlu proses lagi?","Harus melalui verifikasi ulang sebelum penyaluran.","Pasal 3 ayat (2)"
+
+"Jika desa mengalami retur berulang, apa yang harus dianalisis?||Kenapa sering retur?||Apa yang harus dicek?","Validitas data dan kesesuaian dokumen.","Pasal 3 ayat (2)"
+
+"Jika desa menggunakan rekening yang sudah tidak aktif, apa yang terjadi?||Rekening mati bagaimana?||Apakah dana tetap masuk?","Terjadi retur.","Pasal 3 ayat (2)"
+
+"Jika desa mengganti rekening tanpa update data, apa dampaknya?||Ganti rekening tapi tidak update bagaimana?||Apakah bermasalah?","Penyaluran gagal dan terjadi retur.","Pasal 3 ayat (2)"
+
+"Jika data desa di pusat dan daerah berbeda, bagaimana dampaknya?||Data tidak sinkron bagaimana?||Apakah mempengaruhi pencairan?","Menghambat verifikasi dan penyaluran.","Pasal 3 ayat (2)"
+
+"Jika desa ingin mempercepat penyaluran, apa langkah paling efektif?||Bagaimana biar cepat cair?||Apa yang harus dilakukan?","Memastikan dokumen lengkap dan valid sejak awal.","Pasal 3 ayat (2)"
+
+"Jika desa hanya fokus pada kelengkapan dokumen tetapi tidak memperhatikan validitas, apakah cukup?||Dokumen lengkap tapi salah bagaimana?||Apakah tetap cair?","Tidak cukup, harus valid dan sesuai.","Pasal 3 ayat (2)"
+
+"Jika desa mengalami keterlambatan sistematis setiap tahun, apa yang harus diperbaiki?||Selalu telat bagaimana?||Apa masalah utama?","Perbaikan administrasi dan data.","Pasal 3 ayat (2)"
+
+"Jika penyaluran dilakukan melalui pemotongan dari kabupaten/kota, apa artinya?||Pemotongan itu apa?||Dana lewat mana?","Dana disalurkan melalui mekanisme transfer dari kabupaten/kota ke desa.","Pasal 3 ayat (2)"
+
+"Jika desa menerima dana dari hasil pemotongan tersebut, apakah langsung ke RKD?||Dana langsung masuk desa?||Apakah lewat daerah?","Ya, disalurkan ke RKD.","Pasal 3 ayat (2)"
+
+"Jika desa tidak memiliki RKD yang valid, apa yang terjadi?||Rekening tidak valid bagaimana?||Apakah bisa cair?","Penyaluran tidak dapat dilakukan.","Pasal 3 ayat (2)"
+
+"Jika desa ingin memastikan tidak terjadi retur, apa langkah preventif utama?||Bagaimana mencegah retur?||Apa kunci utama?","Validasi data rekening dan dokumen.","Pasal 3 ayat (2)"
+
+"Jika desa mengalami penundaan akibat kesalahan kecil, apakah tetap harus diperbaiki?||Kesalahan kecil perlu diperbaiki?||Apakah bisa diabaikan?","Ya, harus diperbaiki agar penyaluran dapat dilakukan.","Pasal 3 ayat (2)"
+
+"Jika desa ingin memastikan status penyaluran secara real-time, bagaimana caranya?||Bagaimana monitoring?||Apakah bisa dicek?","Melalui sistem OM-SPAN TKD.","Pasal 3 ayat (3)"
+
+"Jika desa tidak memiliki akses langsung ke sistem, bagaimana monitoring dilakukan?||Tidak bisa akses sistem bagaimana?||Bagaimana cek status?","Melalui laporan dan koordinasi dengan pihak terkait.","Pasal 3 ayat (2)"
+
+"Jika terjadi kesalahan dalam laporan penyaluran, apa dampaknya?||Laporan salah bagaimana?||Apakah mempengaruhi dana?","Dapat mempengaruhi evaluasi dan penyaluran.","Pasal 3 ayat (2)"
+
+"Jika laporan tidak disampaikan, apa konsekuensinya?||Tidak lapor bagaimana?||Apakah dana tetap cair?","Penyaluran dapat ditunda atau dihentikan.","Pasal 3 ayat (1)"
+
+pertanyaan||variasi1||variasi2,jawaban,pasal_referensi
+"Apa saja bentuk sanksi dalam penyaluran Dana Desa?||Jenis sanksi Dana Desa apa saja?||Apa konsekuensi pelanggaran?","Penundaan, pemotongan, dan penghentian penyaluran.","Pasal 3 ayat (1)"
+
+"Apa perbedaan penundaan dan penghentian penyaluran?||Bedanya ditunda dan dihentikan apa?||Apakah sama?","Penundaan bersifat sementara, penghentian menghentikan penyaluran sampai kondisi terpenuhi.","Pasal 3 ayat (1)"
+
+"Apa perbedaan pemotongan dan penghentian?||Dana dipotong vs dihentikan apa bedanya?||Mana lebih berat?","Pemotongan mengurangi jumlah dana, penghentian menghentikan penyaluran.","Pasal 3 ayat (1)"
+
+"Jika desa terlambat menyampaikan dokumen, sanksi apa yang paling mungkin?||Telat dokumen kena apa?||Apakah langsung dihentikan?","Penundaan penyaluran.","Pasal 3 ayat (1)"
+
+"Jika desa tidak menyampaikan dokumen sama sekali, apa sanksinya?||Tidak kirim dokumen bagaimana?||Apakah tetap ditunda?","Dapat berujung penghentian penyaluran.","Pasal 3 ayat (1)"
+
+"Jika desa melakukan kesalahan administratif ringan, apakah langsung kena penghentian?||Kesalahan kecil langsung dihentikan?||Apakah ada tahapan?","Biasanya penundaan terlebih dahulu.","Pasal 3 ayat (1)"
+
+"Jika desa melakukan pelanggaran serius, apa sanksinya?||Pelanggaran berat bagaimana?||Apakah langsung dihentikan?","Dapat dikenakan penghentian penyaluran.","Pasal 3 ayat (1)"
+
+"Jika desa melakukan kesalahan berulang, apakah sanksi meningkat?||Kesalahan berulang bagaimana?||Apakah makin berat?","Ya, dapat meningkat dari penundaan ke pemotongan atau penghentian.","Pasal 3 ayat (1)"
+
+"Jika desa sudah pernah ditunda lalu tetap tidak memperbaiki, apa yang terjadi?||Tidak diperbaiki setelah ditunda bagaimana?||Apa langkah berikutnya?","Dapat dikenakan penghentian.","Pasal 3 ayat (1)"
+
+"Jika desa sudah diperbaiki setelah penghentian, apakah dana bisa kembali?||Setelah dihentikan bisa cair lagi?||Apakah bisa lanjut?","Ya, dapat disalurkan kembali setelah memenuhi ketentuan.","Pasal 3 ayat (1)"
+
+"Siapa yang memberikan rekomendasi sanksi penyaluran?||Siapa yang mengusulkan sanksi?||Siapa yang menentukan awal sanksi?","KPA BUN Pengelola Dana Desa.","Pasal 3 ayat (1)"
+
+"Apakah sanksi diberikan langsung tanpa evaluasi?||Apakah ada proses dulu?||Apakah langsung dihukum?","Tidak, melalui proses evaluasi dan verifikasi.","Pasal 3 ayat (1)"
+
+"Jika desa tidak melaporkan penggunaan dana, apa sanksinya?||Tidak lapor bagaimana?||Apa akibatnya?","Penundaan atau penghentian penyaluran.","Pasal 3 ayat (1)"
+
+"Jika desa melaporkan tetapi datanya tidak valid, apa dampaknya?||Laporan salah bagaimana?||Data tidak valid bagaimana?","Dapat dikenakan penundaan atau pemotongan.","Pasal 3 ayat (1)"
+
+"Jika desa melakukan manipulasi data, apa konsekuensinya?||Data dimanipulasi bagaimana?||Apakah berat?","Dapat dikenakan penghentian penyaluran.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami pemotongan, apakah seluruh dana hilang?||Dipotong berarti hilang semua?||Apakah nol?","Tidak, hanya sebagian dana dikurangi.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami penundaan, apakah dana hilang?||Ditunda apakah hilang?||Apakah tetap ada?","Tidak, hanya ditunda sampai syarat terpenuhi.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami penghentian, apakah dana tahun berjalan hilang?||Dihentikan berarti hangus?||Apakah bisa diklaim lagi?","Tidak disalurkan sampai ketentuan dipenuhi.","Pasal 3 ayat (1)"
+
+"Jika desa terkena pemotongan karena kesalahan sebelumnya, apakah bisa dipulihkan?||Dana dipotong bisa kembali?||Apakah bisa normal lagi?","Tidak, pemotongan mengurangi jumlah dana.","Pasal 3 ayat (1)"
+
+"Jika desa ingin menghindari pemotongan, apa langkah utama?||Bagaimana agar tidak dipotong?||Apa yang harus dijaga?","Memastikan kepatuhan dan akurasi data.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami penundaan di awal tahun, apakah mempengaruhi tahap berikutnya?||Penundaan awal berdampak?||Apakah berantai?","Ya, dapat menghambat penyaluran tahap berikutnya.","Pasal 3 ayat (1)"
+
+"Jika desa terkena penghentian, apakah tetap mendapat alokasi tahun berikutnya?||Apakah berdampak ke tahun depan?||Apakah jangka panjang?","Dapat mempengaruhi jika kinerja atau kepatuhan buruk.","Pasal 3 ayat (1)"
+
+"Jika desa memperbaiki kesalahan setelah pemotongan, apakah dana dikembalikan?||Setelah perbaikan dana balik?||Apakah bisa recover?","Tidak, pemotongan bersifat final.","Pasal 3 ayat (1)"
+
+"Jika desa melakukan kesalahan kecil tetapi sering terjadi, apa dampaknya?||Kesalahan kecil berulang bagaimana?||Apakah dianggap serius?","Dapat dianggap pelanggaran serius dan dikenakan sanksi lebih berat.","Pasal 3 ayat (1)"
+
+"Jika desa tidak memahami aturan tetapi melanggar, apakah tetap dikenakan sanksi?||Tidak tahu aturan bagaimana?||Apakah tetap kena?","Ya, tetap dikenakan sanksi.","Pasal 3 ayat (1)"
+
+"Jika desa ingin memastikan tidak terkena sanksi, apa langkah utama?||Bagaimana menghindari sanksi?||Apa kunci utama?","Memenuhi semua persyaratan dan ketentuan.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami konflik data antara pusat dan daerah, apakah bisa kena sanksi?||Data tidak sinkron bagaimana?||Apakah berdampak?","Dapat menghambat penyaluran dan berujung sanksi.","Pasal 3 ayat (1)"
+
+"Jika desa terlambat memperbaiki kesalahan, apakah sanksi bertambah?||Perbaikan lambat bagaimana?||Apakah makin berat?","Ya, dapat meningkat tingkat sanksinya.","Pasal 3 ayat (1)"
+
+"Jika desa hanya memperbaiki sebagian kesalahan, apakah cukup?||Perbaikan parsial cukup?||Apakah tetap cair?","Tidak, harus diperbaiki seluruhnya.","Pasal 3 ayat (1)"
+
+"Jika desa ingin keluar dari kondisi penghentian, apa langkah wajib?||Bagaimana keluar dari sanksi?||Apa syaratnya?","Memenuhi seluruh ketentuan penyaluran.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami kombinasi masalah (dokumen tidak lengkap + laporan tidak valid), apa dampaknya?||Dua masalah sekaligus bagaimana?||Apakah sanksi ganda?","Dapat dikenakan sanksi lebih berat seperti penghentian.","Pasal 3 ayat (1)"
+
+"Jika desa memiliki riwayat buruk tetapi saat ini sudah baik, apakah masih terkena dampak?||Riwayat buruk berpengaruh?||Apakah masih dihitung?","Dapat mempengaruhi evaluasi penyaluran.","Pasal 3 ayat (1)"
+
+"Jika desa ingin memperbaiki reputasi setelah sanksi, apa yang harus dilakukan?||Bagaimana memperbaiki status?||Apa strategi?","Meningkatkan kepatuhan dan kinerja.","Pasal 3 ayat (1)"
+
+"Jika desa tidak segera merespons temuan kesalahan, apa dampaknya?||Tidak ditindaklanjuti bagaimana?||Apakah memburuk?","Dapat meningkatkan tingkat sanksi.","Pasal 3 ayat (1)"
+
+pertanyaan||variasi1||variasi2,jawaban,pasal_referensi
+"Jika sebuah desa memiliki kemiskinan tinggi, wilayah luas, dan akses geografis sulit, tetapi kinerjanya buruk, bagaimana struktur alokasi yang diterima?||Desa miskin luas terpencil tapi kinerja buruk bagaimana alokasinya?||Apakah tetap dapat banyak dana?","Tetap mendapat alokasi afirmasi dan formula tinggi, tetapi tidak mendapat alokasi kinerja.","Pasal 1 ayat (10)-(12)"
+
+"Jika desa memiliki kinerja tinggi tetapi tidak termasuk desa miskin dan wilayahnya kecil, apakah tetap mendapat tambahan dana signifikan?||Kinerja bagus tapi tidak miskin bagaimana?||Apakah tetap besar?","Mendapat tambahan melalui alokasi kinerja, namun formula mungkin lebih kecil.","Pasal 1 ayat (11)-(12)"
+
+"Jika desa memenuhi semua indikator tinggi (penduduk, kemiskinan, luas, geografis) dan juga memiliki kinerja terbaik, bagaimana hasil akhirnya?||Jika semua indikator optimal bagaimana?||Apakah maksimal?","Mendapat kombinasi alokasi afirmasi, kinerja, dan formula tinggi.","Pasal 1 ayat (10)-(12)"
+
+"Jika desa mengalami penundaan karena dokumen tidak lengkap, lalu setelah diperbaiki terjadi kesalahan rekening, bagaimana alur penyalurannya?||Ditunda lalu retur bagaimana prosesnya?||Dua masalah berurutan bagaimana?","Setelah dokumen lengkap diverifikasi, jika rekening salah terjadi retur dan harus diperbaiki sebelum penyaluran ulang.","Pasal 3 ayat (2)"
+
+"Jika desa sudah lolos verifikasi tetapi terjadi perubahan data di sistem sebelum penyaluran, apa dampaknya?||Data berubah setelah verifikasi bagaimana?||Apakah tetap cair?","Dapat menghambat atau menunda penyaluran karena perlu verifikasi ulang.","Pasal 3 ayat (2)"
+
+"Jika desa menerima dana tahap awal tetapi tidak melaporkan penggunaannya, lalu mengajukan tahap berikutnya, apa yang terjadi?||Tidak lapor tahap 1 lalu ajukan tahap 2 bagaimana?||Apakah tetap cair?","Penyaluran tahap berikutnya dapat ditunda atau dihentikan.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami retur berulang akibat kesalahan administrasi, lalu tidak segera diperbaiki, apa konsekuensi akhirnya?||Retur terus menerus bagaimana?||Apa dampak akhir?","Dapat berujung penundaan berkepanjangan atau penghentian.","Pasal 3 ayat (1)-(2)"
+
+"Jika desa memiliki data kemiskinan tinggi tetapi data tersebut tidak valid, bagaimana dampaknya terhadap alokasi dan penyaluran?||Data kemiskinan salah bagaimana?||Apakah tetap dapat besar?","Dapat mempengaruhi alokasi dan berisiko terkena sanksi saat verifikasi.","Pasal 1 ayat (12) dan Pasal 3 ayat (1)"
+
+"Jika desa mengalami pemotongan karena kesalahan administrasi, lalu memperbaiki di tahun berikutnya, apakah jumlah dana kembali normal?||Setelah dipotong bisa normal lagi?||Apakah efek jangka panjang?","Dapat kembali normal jika memenuhi ketentuan, namun pemotongan sebelumnya tidak dikembalikan.","Pasal 3 ayat (1)"
+
+"Jika desa memiliki riwayat pelanggaran tetapi tahun ini sudah patuh, apakah masih berisiko terkena sanksi?||Riwayat buruk masih berpengaruh?||Apakah tetap dipantau?","Masih menjadi bahan evaluasi, tetapi penyaluran dapat dilakukan jika memenuhi syarat.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami penundaan di awal tahun dan keterlambatan tersebut berlanjut, bagaimana dampaknya pada keseluruhan penyaluran tahunan?||Penundaan awal berdampak ke akhir tahun?||Apakah berantai?","Dapat menghambat seluruh siklus penyaluran dalam tahun anggaran.","Pasal 3 ayat (1)"
+
+"Jika desa ingin memaksimalkan Dana Desa tetapi memiliki keterbatasan geografis dan kinerja rendah, strategi mana yang lebih efektif diperbaiki terlebih dahulu?||Geografis vs kinerja mana prioritas?||Apa strategi terbaik?","Meningkatkan kinerja karena dapat langsung mempengaruhi alokasi kinerja.","Pasal 1 ayat (11)"
+
+"Jika desa mengalami konflik data antara pusat dan daerah, lalu tidak segera disinkronkan, bagaimana dampaknya terhadap penyaluran?||Data beda pusat-daerah bagaimana?||Apakah bisa cair?","Dapat menghambat verifikasi dan menyebabkan penundaan.","Pasal 3 ayat (2)"
+
+"Jika desa memiliki indikator formula tinggi tetapi tidak melengkapi dokumen penyaluran, apakah tetap menerima dana besar?||Indikator tinggi tapi dokumen kurang bagaimana?||Apakah tetap cair?","Tidak, penyaluran tetap bergantung pada kelengkapan dokumen.","Pasal 3 ayat (2)"
+
+"Jika desa sudah menerima dana tetapi kemudian ditemukan pelanggaran berat, bagaimana dampaknya pada tahap berikutnya?||Pelanggaran setelah cair bagaimana?||Apakah tahap berikutnya terpengaruh?","Dapat dikenakan penghentian penyaluran tahap berikutnya.","Pasal 3 ayat (1)"
+
+"Jika desa memiliki kinerja tinggi tetapi laporan tidak akurat, apakah tetap mendapatkan alokasi kinerja?||Kinerja bagus tapi laporan salah bagaimana?||Apakah tetap dihitung?","Berisiko kehilangan alokasi kinerja karena evaluasi tidak valid.","Pasal 1 ayat (11) dan Pasal 3 ayat (1)"
+
+"Jika desa mengalami kesalahan kecil namun berulang setiap tahap, bagaimana penilaian akhirnya?||Kesalahan kecil tapi sering bagaimana?||Apakah dianggap serius?","Dapat dianggap pelanggaran serius dan dikenakan sanksi lebih berat.","Pasal 3 ayat (1)"
+
+"Jika desa ingin keluar dari kondisi penghentian tetapi hanya memperbaiki sebagian dokumen, apakah cukup?||Perbaikan parsial cukup?||Apakah bisa cair?","Tidak, seluruh persyaratan harus dipenuhi.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami keterlambatan akibat faktor internal dan eksternal sekaligus, bagaimana penanganannya?||Dua faktor keterlambatan bagaimana?||Apakah tetap kena sanksi?","Tetap dinilai berdasarkan pemenuhan persyaratan penyaluran.","Pasal 3 ayat (1)"
+
+"Jika desa ingin memastikan tidak ada masalah dalam seluruh siklus Dana Desa, apa pendekatan terbaik?||Bagaimana memastikan lancar dari awal sampai akhir?||Apa strategi menyeluruh?","Menjaga kepatuhan, validitas data, dan ketepatan pelaporan.","Pasal 3 ayat (1)-(2)"
+
+"Jika desa memiliki alokasi besar tetapi tidak mampu mengelola dengan baik, apa risiko utama?||Dana besar tapi pengelolaan buruk bagaimana?||Apa dampaknya?","Berisiko terkena sanksi penyaluran.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami perubahan status (misalnya dari tertinggal menjadi berkembang), bagaimana dampaknya terhadap alokasi?||Status desa berubah bagaimana?||Apakah afirmasi hilang?","Dapat mempengaruhi alokasi afirmasi.","Pasal 1 ayat (10)"
+
+"Jika desa memiliki indikator kuat tetapi gagal dalam satu aspek administratif, apakah seluruh penyaluran terhambat?||Satu kesalahan berdampak besar?||Apakah semua tertahan?","Ya, karena penyaluran bergantung pada kelengkapan syarat.","Pasal 3 ayat (2)"
+
+"Jika desa ingin memaksimalkan peluang mendapatkan semua jenis alokasi, apa yang harus dicapai?||Bagaimana dapat semua alokasi?||Apa syarat maksimal?","Memenuhi indikator afirmasi, kinerja, dan formula secara optimal.","Pasal 1 ayat (10)-(12)"
+
+pertanyaan||variasi1||variasi2,jawaban,pasal_referensi
+"kenapa dana desa saya belum cair ya padahal katanya sudah?||status cair tapi belum masuk kenapa?||udah cair tapi duitnya ga ada","Kemungkinan terjadi retur atau masih dalam proses verifikasi penyaluran.","Pasal 3 ayat (2)"
+
+"ini dana desa kok kecil banget ya dibanding tahun lalu?||kenapa turun drastis?||kok beda jauh sama tahun kemarin","Karena perubahan indikator alokasi seperti formula, kinerja, atau kebijakan.","Pasal 1 ayat (11)-(12) dan Pasal 7"
+
+"kalo desa saya bagus tapi ga dapet tambahan, itu kenapa?||kinerja bagus tapi ga ada bonus?||kenapa ga dapet kinerja","Kemungkinan tidak masuk kategori desa dengan kinerja terbaik.","Pasal 1 ayat (11)"
+
+"desa saya miskin tapi kok ga dapet afirmasi ya?||harusnya dapet afirmasi ga sih?||kenapa ga masuk afirmasi","Harus memenuhi kriteria afirmasi sesuai ketentuan yang berlaku.","Pasal 1 ayat (10)"
+
+"kalo dana udah masuk tapi ada masalah laporan, itu gimana?||udah cair tapi laporan salah||laporan bermasalah setelah cair","Dapat mempengaruhi penyaluran tahap berikutnya.","Pasal 3 ayat (1)"
+
+"kalo saya salah input rekening terus dananya ga masuk, itu salah siapa?||rekening salah terus dana balik||retur gara2 rekening siapa tanggung jawab","Kesalahan data rekening menjadi tanggung jawab desa dan menyebabkan retur.","Pasal 3 ayat (2)"
+
+"kok bisa ya dana desa gagal masuk?||kenapa bisa gagal transfer?||apa penyebab dana ga masuk","Karena kesalahan data atau rekening tidak valid.","Pasal 3 ayat (2)"
+
+"kalo udah retur terus lama ga diperbaiki, apa efeknya?||retur ga diurus gimana?||dana balik terus didiemin","Penyaluran dapat tertunda atau dihentikan.","Pasal 3 ayat (1)"
+
+"ini dana desa bisa ilang ga sih?||bisa hangus ga?||dana desa aman ga","Tidak hilang, tetapi bisa tidak disalurkan jika syarat tidak terpenuhi.","Pasal 3 ayat (1)"
+
+"kalo saya ga ngerti aturan terus salah, tetep kena sanksi ga?||ga tau aturan tapi salah||awam tapi salah gimana","Tetap dapat dikenakan sanksi administratif.","Pasal 3 ayat (1)"
+
+"kalo desa saya kecil tapi miskin banget, itu dapet gede ga?||kecil tapi miskin gimana?||mana lebih ngaruh","Tetap mendapat tambahan dari faktor kemiskinan dalam formula.","Pasal 1 ayat (12)"
+
+"kalo desa luas tapi orangnya dikit, itu dapet banyak ga?||wilayah besar tapi sepi||luas vs penduduk mana penting","Luas wilayah tetap meningkatkan alokasi meskipun penduduk sedikit.","Pasal 1 ayat (12)"
+
+"kalo desa gampang diakses tapi miskin, itu gimana?||ga terpencil tapi miskin||geografis rendah tapi miskin","Tetap mendapat tambahan dari faktor kemiskinan.","Pasal 1 ayat (12)"
+
+"kalo semua indikator jelek, dana desa kecil ya?||semua rendah gimana||apakah pasti kecil","Alokasi formula relatif lebih kecil.","Pasal 1 ayat (12)"
+
+"kalo semua indikator bagus tapi dokumen ga lengkap, cair ga?||indikator bagus tapi administrasi jelek||apakah tetap cair","Tidak, penyaluran bergantung pada kelengkapan dokumen.","Pasal 3 ayat (2)"
+
+"kalo desa saya sering telat tiap tahun, itu kenapa ya?||selalu telat cair||masalah rutin tiap tahun","Kemungkinan masalah administrasi dan kelengkapan dokumen.","Pasal 3 ayat (2)"
+
+"kalo udah lengkap semua tapi masih lama, itu kenapa?||udah beres tapi belum cair||kok lama banget","Karena proses verifikasi dan jadwal penyaluran.","Pasal 3 ayat (2)"
+
+"kalo dana desa bisa dipotong itu kenapa?||kenapa dana berkurang||apa penyebab pemotongan","Karena ketidaksesuaian atau pelanggaran ketentuan.","Pasal 3 ayat (1)"
+
+"kalo dipotong bisa balik ga?||dana dipotong bisa dikembalikan?||recover bisa ga","Tidak, pemotongan bersifat final.","Pasal 3 ayat (1)"
+
+"kalo ditunda terus diperbaiki, langsung cair ga?||habis ditunda langsung cair?||perbaikan langsung cair","Harus melalui verifikasi ulang sebelum penyaluran.","Pasal 3 ayat (2)"
+
+"kalo dihentikan, itu berarti selesai ya?||dihentikan itu final?||masih bisa lanjut ga","Masih bisa dilanjutkan setelah memenuhi ketentuan.","Pasal 3 ayat (1)"
+
+"kalo desa saya pengen dana lebih besar, harus ngapain?||cara ningkatin dana||gimana biar dapet banyak","Meningkatkan kinerja dan indikator formula.","Pasal 1 ayat (11)-(12)"
+
+"kalo cuma fokus bangun jalan tapi laporan jelek, itu aman ga?||fisik bagus tapi administrasi jelek||cukup ga","Tidak aman karena laporan mempengaruhi penyaluran.","Pasal 3 ayat (1)"
+
+"kalo data desa beda antara pusat sama daerah, itu bahaya ga?||data ga sinkron||beda data gimana","Dapat menghambat verifikasi dan penyaluran.","Pasal 3 ayat (2)"
+
+"kalo satu kesalahan kecil tapi sering terjadi, itu dihitung serius ga?||kesalahan kecil berulang||error kecil tapi terus","Dapat dianggap pelanggaran serius.","Pasal 3 ayat (1)"
+
+"kalo desa saya udah bagus sekarang tapi dulu pernah bermasalah, itu masih ngaruh ga?||riwayat buruk masih dihitung?||masa lalu berpengaruh?","Dapat menjadi bahan evaluasi.","Pasal 3 ayat (1)"
+
+"kalo desa pengen aman 100%, apa yang harus dijaga?||biar ga kena masalah||cara aman total","Kepatuhan, validitas data, dan kelengkapan dokumen.","Pasal 3 ayat (1)-(2)"
+
+"kalo dana besar tapi ga bisa kelola, itu bahaya ga?||dana besar tapi SDM kurang||risiko apa","Berisiko terkena sanksi penyaluran.","Pasal 3 ayat (1)"
+
+"kalo desa ga punya internet bagus, itu ngaruh ga ke dana?||offline desa gimana||akses susah pengaruh","Monitoring tetap dilakukan oleh pihak terkait.","Pasal 3 ayat (3)"
+
+"kalo sistem error, dana tetap jalan ga?||error sistem gimana||apakah berhenti","Penyaluran bergantung sistem namun tetap dikelola oleh pihak terkait.","Pasal 3 ayat (3)"
+
+"kalo saya mau tau dana desa itu adil atau ga, gimana jawabnya?||apakah pembagian adil||apakah merata","Pembagian berdasarkan formula kebutuhan dan kondisi desa.","Pasal 1 ayat (12)"
+
+pertanyaan||variasi1||variasi2,jawaban,pasal_referensi
+"Dana Desa itu apa sebenarnya?||Apa definisi resmi Dana Desa?||DD itu maksudnya apa sih?","Dana Desa adalah bagian dari TKD untuk mendukung pemerintahan, pembangunan, pemberdayaan, dan kemasyarakatan desa.","Pasal 1 ayat (8)"
+
+"Kenapa Dana Desa bisa beda tiap desa?||Mengapa jumlah Dana Desa tidak sama?||Kok desa A dan B beda ya?","Karena dihitung berdasarkan indikator formula seperti penduduk, kemiskinan, luas wilayah, dan geografis.","Pasal 1 ayat (12)"
+
+"Dana Desa saya kok kecil banget?||Kenapa alokasi saya sedikit?||Kok dapatnya minim ya?","Karena nilai indikator formula relatif rendah dibanding desa lain.","Pasal 1 ayat (12)"
+
+"Kok desa lain bisa dapat lebih banyak?||Kenapa desa sebelah lebih besar?||Apa faktor pembeda?","Karena memiliki indikator yang lebih tinggi dalam perhitungan alokasi.","Pasal 1 ayat (12)"
+
+"Apa saja faktor yang menentukan Dana Desa?||Komponen perhitungan Dana Desa apa?||Dasar pembagian dana apa?","Penduduk, kemiskinan, luas wilayah, dan kesulitan geografis.","Pasal 1 ayat (12)"
+
+"Dana Desa cair lewat mana sih?||Alur pencairannya gimana?||Lewat sistem apa?","Melalui KPPN menggunakan OM-SPAN TKD.","Pasal 3 ayat (2)-(3)"
+
+"Kenapa dana saya belum cair?||Kenapa belum masuk rekening?||Masih pending kenapa?","Karena masih dalam proses verifikasi atau dokumen belum lengkap.","Pasal 3 ayat (2)"
+
+"Udah katanya cair tapi belum masuk, kenapa?||Status cair tapi saldo kosong||Kenapa belum diterima?","Kemungkinan terjadi retur atau proses belum selesai.","Pasal 3 ayat (2)"
+
+"Dana Desa bisa gagal transfer ya?||Apakah dana bisa tidak sampai?||Bisa error ga?","Ya, jika data rekening tidak valid dapat terjadi retur.","Pasal 3 ayat (2)"
+
+"Kalau gagal transfer terus gimana?||Kalau dana balik apa yang dilakukan?||Setelah retur apa langkahnya?","Harus diperbaiki lalu dilakukan penyaluran kembali.","Pasal 3 ayat (2)"
+
+"Kalau salah rekening itu fatal ya?||Salah nomor rekening dampaknya apa?||Apakah langsung gagal?","Ya, menyebabkan retur dan penyaluran gagal.","Pasal 3 ayat (2)"
+
+"Kalau saya telat kirim dokumen, masih bisa cair ga?||Telat upload syarat gimana?||Masih ada peluang?","Penyaluran dapat ditunda sampai syarat terpenuhi.","Pasal 3 ayat (2)"
+
+"Kalau ga kirim dokumen sama sekali gimana?||Tidak submit dokumen||Apakah tetap cair?","Penyaluran tidak dilakukan.","Pasal 3 ayat (2)"
+
+"Bedanya ditunda sama dihentikan apa sih?||Apa beda pending dan stop?||Mana lebih parah?","Penundaan sementara, penghentian menghentikan penyaluran.","Pasal 3 ayat (1)"
+
+"Kalau dana dipotong itu kenapa?||Kenapa jumlahnya berkurang?||Apa penyebab pemotongan?","Karena pelanggaran atau ketidaksesuaian ketentuan.","Pasal 3 ayat (1)"
+
+"Kalau dipotong bisa balik ga?||Bisa dikembalikan ga?||Recover bisa?","Tidak, pemotongan bersifat final.","Pasal 3 ayat (1)"
+
+"Kalau dihentikan berarti selesai ya?||Kalau stop apakah final?||Masih bisa lanjut?","Masih bisa dilanjutkan setelah syarat dipenuhi.","Pasal 3 ayat (1)"
+
+"Gimana caranya biar dana lancar terus?||Tips biar ga kena masalah||Biar aman gimana","Memastikan kepatuhan, data valid, dan dokumen lengkap.","Pasal 3 ayat (1)-(2)"
+
+"Kalau desa saya pengen dapat lebih banyak dana, harus gimana?||Strategi menaikkan Dana Desa?||Biar dapat besar gimana","Meningkatkan kinerja dan indikator formula.","Pasal 1 ayat (11)-(12)"
+
+"Kinerja desa itu ngaruh banget ya?||Seberapa penting kinerja?||Apakah jadi faktor utama?","Ya, mempengaruhi alokasi kinerja.","Pasal 1 ayat (11)"
+
+"Kalau desa miskin pasti dapat lebih ya?||Kemiskinan pasti menambah dana?||Apakah selalu naik?","Ya, meningkatkan alokasi melalui formula.","Pasal 1 ayat (12)"
+
+"Kalau desa terpencil apakah diuntungkan?||Geografis sulit dapat lebih?||Akses susah pengaruh?","Ya, melalui faktor kesulitan geografis.","Pasal 1 ayat (12)"
+
+"Semua desa dapat Dana Desa kan?||Ada desa yang ga dapat?||Semua pasti dapat?","Ya, semua desa menerima Dana Desa.","Pasal 7"
+
+"Jumlah Dana Desa nasional berapa sih?||Total Dana Desa 2026 berapa?||Anggaran total berapa?","Rp60.570.000.000.000.","Pasal 7 ayat (1)"
+
+"Kalau desa saya punya banyak penduduk tapi ga miskin, itu gimana?||Penduduk banyak tapi ekonomi bagus||Apakah tetap besar?","Tetap mendapat tambahan dari faktor jumlah penduduk.","Pasal 1 ayat (12)"
+
+"Kalau desa kecil tapi sangat miskin, itu lebih diuntungkan ga?||Kecil tapi miskin||Mana lebih dominan","Kemiskinan tetap meningkatkan alokasi.","Pasal 1 ayat (12)"
+
+"Kalau semua indikator tinggi tapi laporan jelek, dana tetap cair ga?||Indikator bagus tapi administrasi buruk||Apakah tetap jalan","Tidak, penyaluran bergantung pada kelengkapan dan validitas dokumen.","Pasal 3 ayat (2)"
+
+"Kalau sering salah tapi kecil-kecil, itu aman ga?||Kesalahan minor tapi sering||Apakah tetap oke","Tidak, dapat dianggap pelanggaran serius.","Pasal 3 ayat (1)"
+
+"Kalau desa saya pernah bermasalah, itu masih ngaruh ga sekarang?||Riwayat buruk masih dihitung?||Masa lalu berpengaruh","Dapat menjadi bahan evaluasi.","Pasal 3 ayat (1)"
+
+"Kalau mau nol risiko, apa yang harus dijaga?||Biar 100% aman gimana||No problem strategy","Kepatuhan, validitas data, dan pelaporan yang benar.","Pasal 3 ayat (1)-(2)"
+
+"Kalau dana besar tapi ga bisa kelola, itu bahaya ya?||Dana gede tapi ga siap||Apa risikonya","Berisiko terkena sanksi penyaluran.","Pasal 3 ayat (1)"
+
+"Kalau sistem error, dana tetap jalan ga?||Kalau OM-SPAN error gimana||Apakah berhenti","Penyaluran tergantung sistem namun tetap dikelola.","Pasal 3 ayat (3)"
+
+"Kalau data beda antara pusat dan daerah, itu masalah besar ga?||Data ga sinkron||Apakah fatal","Ya, dapat menghambat verifikasi dan penyaluran.","Pasal 3 ayat (2)"
+
+"Kalau satu faktor naik, langsung naik semua ga?||Satu indikator naik efeknya apa||Apakah signifikan","Mempengaruhi alokasi secara proporsional.","Pasal 1 ayat (12)"
+
+"Kalau desa saya pengen optimal di semua aspek, apa targetnya?||Strategi maksimal Dana Desa||Apa goal ideal","Memenuhi indikator afirmasi, kinerja, dan formula secara optimal.","Pasal 1 ayat (10)-(12)"
+
+pertanyaan||variasi1||variasi2,jawaban,pasal_referensi
+"Jika semua indikator alokasi sama antar dua desa, apakah jumlah Dana Desa pasti sama?||Jika semua faktor identik apakah hasil sama?||Apakah bisa beda?","Ya, jika seluruh indikator sama maka alokasi yang diterima sama.","Pasal 1 ayat (12)"
+
+"Jika hanya satu indikator berbeda kecil, apakah hasil alokasi bisa berbeda signifikan?||Perbedaan kecil berpengaruh besar?||Apakah sensitif?","Dapat mempengaruhi hasil secara proporsional.","Pasal 1 ayat (12)"
+
+"Jika desa memiliki indikator tinggi tetapi tidak memenuhi syarat administratif, apakah tetap mendapat dana besar?||Indikator bagus tapi dokumen tidak lengkap||Apakah tetap cair","Tidak, penyaluran bergantung pada kelengkapan syarat.","Pasal 3 ayat (2)"
+
+"Jika desa memenuhi semua syarat administratif tetapi indikator rendah, apakah tetap mendapat dana besar?||Administrasi bagus tapi indikator rendah||Apakah tetap besar","Tidak, alokasi ditentukan oleh indikator formula.","Pasal 1 ayat (12)"
+
+"Jika desa mengalami keterlambatan kecil namun berulang setiap tahap, apakah dampaknya besar?||Telat sedikit tapi sering||Apakah berbahaya","Ya, dapat dianggap pelanggaran serius.","Pasal 3 ayat (1)"
+
+"Jika desa tidak pernah melakukan kesalahan besar tetapi sering melakukan kesalahan kecil, bagaimana penilaiannya?||Kesalahan kecil terus menerus||Apakah dihitung berat","Dapat dikenakan sanksi lebih berat karena frekuensi.","Pasal 3 ayat (1)"
+
+"Jika desa memperbaiki semua kesalahan setelah sanksi, apakah reputasi langsung pulih?||Setelah perbaikan langsung normal?||Apakah riwayat hilang","Tidak langsung, tetap menjadi bahan evaluasi.","Pasal 3 ayat (1)"
+
+"Jika desa memiliki data sempurna tetapi tidak melaporkan, apakah tetap aman?||Data bagus tapi tidak lapor||Apakah tetap cair","Tidak, pelaporan tetap wajib.","Pasal 3 ayat (1)"
+
+"Jika desa melaporkan tetapi datanya tidak akurat, apakah dianggap memenuhi kewajiban?||Laporan ada tapi salah||Apakah tetap sah","Tidak, harus valid dan akurat.","Pasal 3 ayat (1)"
+
+"Jika desa memiliki indikator tinggi dan laporan lengkap tetapi rekening salah, apakah dana tetap masuk?||Semua benar kecuali rekening||Apakah tetap cair","Tidak, akan terjadi retur.","Pasal 3 ayat (2)"
+
+"Jika desa memperbaiki rekening setelah retur, apakah dana langsung cair?||Setelah retur diperbaiki||Apakah langsung masuk","Harus melalui proses penyaluran ulang.","Pasal 3 ayat (2)"
+
+"Jika desa tidak memperbaiki retur dalam waktu lama, apa dampaknya?||Retur tidak ditindaklanjuti||Apa konsekuensi","Penyaluran dapat dihentikan.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami penundaan di semua tahap, apa dampak akhir tahun?||Ditunda terus||Apa efek tahunan","Dapat menghambat seluruh penyaluran tahun berjalan.","Pasal 3 ayat (1)"
+
+"Jika desa memiliki alokasi besar tetapi mengalami penghentian, apakah dana tetap disalurkan?||Dana besar tapi dihentikan||Apakah tetap cair","Tidak, penyaluran dihentikan.","Pasal 3 ayat (1)"
+
+"Jika desa memiliki indikator rendah tetapi sangat patuh administrasi, apakah tetap diuntungkan?||Administrasi bagus tapi indikator kecil||Apakah tetap besar","Tidak signifikan, karena alokasi ditentukan indikator.","Pasal 1 ayat (12)"
+
+"Jika desa memiliki indikator tinggi dan patuh administrasi, apa hasil optimalnya?||Semua bagus||Apakah maksimal","Mendapat alokasi optimal dan penyaluran lancar.","Pasal 1 ayat (10)-(12) dan Pasal 3 ayat (2)"
+
+"Jika desa mengalami konflik antara data kemiskinan dan data pusat, mana yang digunakan?||Data beda mana dipakai||Siapa yang jadi acuan","Data yang diverifikasi dalam proses penyaluran.","Pasal 3 ayat (2)"
+
+"Jika desa ingin memaksimalkan Dana Desa dalam jangka panjang, apa pendekatan terbaik?||Strategi jangka panjang||Bagaimana optimalisasi","Meningkatkan indikator dan menjaga kepatuhan.","Pasal 1 ayat (11)-(12) dan Pasal 3"
+
+"Jika desa hanya fokus pada peningkatan indikator tanpa memperbaiki administrasi, apakah cukup?||Fokus indikator saja||Apakah cukup","Tidak, administrasi tetap menentukan penyaluran.","Pasal 3 ayat (2)"
+
+"Jika desa hanya fokus pada administrasi tanpa meningkatkan indikator, apakah cukup?||Administrasi saja||Apakah cukup","Tidak, alokasi tetap ditentukan indikator.","Pasal 1 ayat (12)"
+
+"Jika desa ingin nol risiko penundaan, apa syarat minimum?||Biar tidak ditunda||Apa syarat dasar","Dokumen lengkap dan valid.","Pasal 3 ayat (2)"
+
+"Jika desa ingin nol risiko sanksi, apa syarat maksimum?||Biar aman total||Apa semua syarat","Kepatuhan penuh dan kinerja baik.","Pasal 3 ayat (1)"
+
+"Jika desa mengalami perubahan status (misalnya dari tertinggal menjadi maju), bagaimana dampaknya?||Status naik||Apa efeknya","Dapat mengurangi alokasi afirmasi.","Pasal 1 ayat (10)"
+
+"Jika desa mengalami peningkatan kinerja tetapi indikator lain tetap, apakah dana naik signifikan?||Kinerja naik saja||Apakah besar","Meningkat melalui alokasi kinerja.","Pasal 1 ayat (11)"
+
+"Jika desa mengalami peningkatan semua indikator sekaligus, apa dampaknya?||Semua naik||Apakah maksimal","Mendapat peningkatan alokasi signifikan.","Pasal 1 ayat (12)"
+
+"Jika desa memiliki dua masalah kecil dan satu masalah besar, mana yang lebih berpengaruh?||Masalah campuran||Mana dominan","Masalah besar lebih berpengaruh terhadap sanksi.","Pasal 3 ayat (1)"
+
+"Jika desa ingin memastikan tidak ada bottleneck dalam penyaluran, apa yang harus diperiksa?||Menghindari hambatan||Apa yang dicek","Dokumen, data, dan rekening.","Pasal 3 ayat (2)"
+
+"Jika desa ingin memastikan dana cair tepat waktu, faktor paling kritis apa?||Faktor utama||Apa kunci","Kelengkapan dan validitas dokumen.","Pasal 3 ayat (2)"
+
+"Jika desa memiliki data valid tetapi tidak sinkron antar sistem, apakah aman?||Data benar tapi beda||Apakah tetap aman","Tidak, dapat menghambat penyaluran.","Pasal 3 ayat (2)"
+
+"Jika desa mengalami masalah di satu tahap saja, apakah seluruh proses terganggu?||Satu error dampaknya||Apakah berantai","Ya, karena proses bersifat berurutan.","Pasal 3 ayat (2)"
+
+"Jika desa ingin memastikan tidak ada kesalahan sama sekali, pendekatan apa yang diperlukan?||Zero error strategy||Apa pendekatan terbaik","Validasi menyeluruh pada data dan dokumen.","Pasal 3 ayat (2)"
+
+"Jika desa memiliki semua keunggulan tetapi satu pelanggaran serius, apa dampaknya?||Semua bagus tapi satu pelanggaran||Apakah tetap aman","Dapat dikenakan penghentian.","Pasal 3 ayat (1)"
+
+"Jika desa ingin memastikan keberlanjutan Dana Desa jangka panjang, apa yang harus dijaga?||Sustainability||Apa yang dijaga","Kinerja, kepatuhan, dan kualitas data.","Pasal 1 dan Pasal 3"
+
+"Jika desa ingin memastikan transparansi Dana Desa, apa yang harus dilakukan?||Transparansi||Bagaimana memastikan","Melakukan pelaporan yang benar dan akurat.","Pasal 3 ayat (1)"
+
+"Jika desa ingin memastikan akuntabilitas, apa indikator utamanya?||Akuntabilitas||Apa indikator","Pelaporan dan kepatuhan terhadap ketentuan.","Pasal 3 ayat (1)"
