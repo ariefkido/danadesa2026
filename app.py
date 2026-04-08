@@ -24,7 +24,7 @@ if not api_key:
 
 # Inisialisasi client (cara baru)
 try:
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(api_key=GEMINI_API_KEY)
 except Exception as e:
     st.error(f"Gagal konfigurasi Gemini: {e}")
     st.stop()
