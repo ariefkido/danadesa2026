@@ -1,89 +1,96 @@
 import streamlit as st
-from google import genai
-import json
+import pandas as pd
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
-# --- KONFIGURASI HALAMAN ---
-st.set_page_config(
-    page_title="Chatbot Dana Desa 2026",
-    page_icon="💰",
-    layout="centered"
-)
-
-# --- 1. SETUP API KEY ---
-api_key = st.secrets.get("GEMINI_API_KEY")
-
-if not api_key:
-    with st.sidebar:
-        st.title("🔑 Konfigurasi")
-        api_key = st.text_input("Masukkan Gemini API Key:", type="password")
-        st.info("Dapatkan key di: aistudio.google.com")
-
-if not api_key:
-    st.warning("⚠️ API Key tidak ditemukan. Harap masukkan API Key untuk memulai.")
-    st.stop()
-
-# Inisialisasi client (cara baru)
-try:
-    client = genai.Client(api_key=GEMINI_API_KEY)
-except Exception as e:
-    st.error(f"Gagal konfigurasi Gemini: {e}")
-    st.stop()
-
-# --- 2. LOAD DATA PERATURAN ---
+# =========================
+# Load & preprocess dataset
+# =========================
 @st.cache_data
-def load_context():
-    file_name = 'PMK 7 2026 Tanpa Lampiran - Pengelolaan Dana Desa Tahun Anggaran 2026_llm.json'
-    try:
-        with open(file_name, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        context_parts = []
-        for item in data:
-            ctx = f"[{item['full_context']}] {item['text']}"
-            context_parts.append(ctx)
-        return "\n".join(context_parts)
-    except FileNotFoundError:
-        st.error(f"File {file_name} tidak ditemukan di repositori!")
-        return None
-    except Exception as e:
-        st.error(f"Error memuat JSON: {e}")
-        return None
+def load_data(path):
+    df = pd.read_csv(path)
+    
+    # Split pertanyaan + variasi
+    questions = []
+    answers = []
+    pasals = []
+    
+    for _, row in df.iterrows():
+        q_variants = str(row['pertanyaan||variasi1||variasi2']).split('||')
+        for q in q_variants:
+            questions.append(q.strip())
+            answers.append(row['jawaban'])
+            pasals.append(row['pasal_referensi'])
+    
+    clean_df = pd.DataFrame({
+        'question': questions,
+        'answer': answers,
+        'pasal': pasals
+    })
+    
+    return clean_df
 
-peraturan_text = load_context()
+# =========================
+# Build vectorizer
+# =========================
+@st.cache_resource
+def build_vectorizer(questions):
+    vectorizer = TfidfVectorizer()
+    vectors = vectorizer.fit_transform(questions)
+    return vectorizer, vectors
 
-# --- 3. ANTARMUKA CHAT ---
-st.title("🤖 Asisten Dana Desa 2026")
-st.caption("Menjawab berdasarkan PMK No. 7 Tahun 2026")
+# =========================
+# Search function
+# =========================
+def get_best_answer(query, vectorizer, vectors, df, top_k=3):
+    query_vec = vectorizer.transform([query])
+    similarities = cosine_similarity(query_vec, vectors).flatten()
+    
+    top_indices = similarities.argsort()[-top_k:][::-1]
+    results = []
+    
+    for idx in top_indices:
+        results.append({
+            'question': df.iloc[idx]['question'],
+            'answer': df.iloc[idx]['answer'],
+            'pasal': df.iloc[idx]['pasal'],
+            'score': similarities[idx]
+        })
+    
+    return results
 
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+# =========================
+# UI Streamlit
+# =========================
+st.set_page_config(page_title="Chatbot PMK 7/2026", layout="wide")
 
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+st.title("🤖 Chatbot PMK 7 Tahun 2026")
+st.write("Tanyakan apa saja terkait peraturan Dana Desa")
 
-if prompt := st.chat_input("Tanyakan sesuatu..."):
-    st.session_state.messages.append({"role": "user", "content": prompt})
-    with st.chat_message("user"):
-        st.markdown(prompt)
+# Load data
+DATA_PATH = "faq_pmk7dd_fix.csv"
+df = load_data(DATA_PATH)
+vectorizer, vectors = build_vectorizer(df['question'])
 
-    with st.chat_message("assistant"):
-        with st.spinner("Mencari jawaban..."):
-            system_instruction = f"""Anda adalah pakar hukum keuangan negara. Jawablah hanya berdasarkan data PMK 7/2026 berikut:
+# Chat input
+user_input = st.text_input("Masukkan pertanyaan:")
 
-{peraturan_text if peraturan_text else "Data tidak tersedia."}
+if user_input:
+    results = get_best_answer(user_input, vectorizer, vectors, df)
+    
+    st.subheader("Jawaban:")
+    
+    for i, res in enumerate(results):
+        st.markdown(f"### 🔹 Hasil {i+1}")
+        st.write(f"**Kemiripan:** {res['score']:.2f}")
+        st.write(f"**Pertanyaan mirip:** {res['question']}")
+        st.write(f"**Jawaban:** {res['answer']}")
+        st.write(f"**Referensi:** {res['pasal']}")
+        st.divider()
 
-Instruksi:
-- Jika jawaban ada, sebutkan Pasal/Ayat.
-- Jika tidak ada, katakan tidak diatur dalam PMK ini.
-- Gunakan Bahasa Indonesia formal."""
-
-            try:
-                response = client.models.generate_content(
-                    model="gemini-1.5-flash",
-                    contents=f"{system_instruction}\n\nPertanyaan User: {prompt}"
-                )
-                answer = response.text
-                st.markdown(answer)
-                st.session_state.messages.append({"role": "assistant", "content": answer})
-            except Exception as e:
-                st.error(f"Terjadi kesalahan saat memanggil AI: {str(e)}")
+# =========================
+# Sidebar info
+# =========================
+st.sidebar.title("Tentang")
+st.sidebar.write("Chatbot ini menggunakan TF-IDF + Cosine Similarity tanpa API AI.")
+st.sidebar.write("Dataset berasal dari PMK 7 Tahun 2026.")
